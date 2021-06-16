@@ -5,8 +5,6 @@
     box-sizing: border-box;
     -webkit-font-smootthing:antialiased
 }
-
-
 .body{
     background-color: rgba(0, 0, 0, 0.863);
     clip-path: polygon(0 0, 100% 0 , 100% 100%, 70% 87%,0 100%);
@@ -46,6 +44,8 @@
     line-height: 1.9;
     margin-bottom: 2rem;
 }
+
+/* Starting of about  */
 
 section{
     padding: 6rem 0;
@@ -93,6 +93,9 @@ section.about social a img{
     width: 50px;
     height: 40px;
 }
+/* End of About */
+
+/* start of services */
 
 .section-heading{
     color: #070606;
@@ -120,12 +123,12 @@ section.services .card-wrapper{
 }
 
 section.services .card-wrapper .card{
-       background:#ffffff ;
-       padding: 3rem 2rem;
-       position: relative;
-       padding-top: 6rem;
-       text-align: center;
-       transition: all .3s ease;
+  background:#ffffff ;
+  padding: 3rem 2rem;
+  position: relative;
+  padding-top: 6rem;
+  text-align: center;
+  transition: all .3s ease;
 }
 
 section.services .card-wrapper .card img{
@@ -157,7 +160,7 @@ section.services .card-wrapper .card:hover{
 section.services .card-wrapper .card:hover h2,section.services .card-wrapper .card:hover p{
     color: #ffffff;
 }
-
+/* end of services */
 
 section.freelancer{
     text-align: center;
@@ -177,6 +180,7 @@ section.freelancer p{
     font-family: sans-serif;
 
 }
+/* start of work */
 
 section.work{
     background: #f2f2f2;
@@ -221,6 +225,9 @@ section.work .card-wrapper .card img{
     height: 100%;
     width: 100%;
 }
+/* end of work */
+
+/* start of contact  */
 
 section.contact .card-wrapper{
     display: grid;
@@ -266,7 +273,6 @@ section.contact input{
 
 section.contact .input-wrap-2 input{
     margin-bottom: 2rem;
-  
 }
 
 section.contact .input-wrap-2 textarea{
@@ -281,7 +287,9 @@ section.contact .btn-wrapper{
     text-align: center;
     margin-top: 2rem;
 }
+/* end of contact  */
 
+/* start of footer */
 footer{
     background: #161616;
     text-align: center;

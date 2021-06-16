@@ -43,7 +43,6 @@ function index() {
                        </div> */}
             </div>
         </div>
-
     </section>
     <section id="services" className="services">
         <div className="container">
